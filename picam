@@ -1,0 +1,1 @@
+sudo apt install -y cmake ninja-build g++ pkg-config python3 python3-pip python3-yaml python3-ply python3-jinja2 libboost-dev libudev-dev libdrm-dev libexif-dev libjpeg-dev libtiff-dev libwebp-dev libx11-dev libxcomposite-dev libxkbcommon-dev libxrandr-dev libegl1-mesa-dev libgbm-dev libgles2-mesa-dev
