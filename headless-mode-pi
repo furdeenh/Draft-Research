@@ -1,0 +1,15 @@
+[Unit]
+Description=Start TightVNC server at startup
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=<username>
+Group=<username>
+WorkingDirectory=/home/<username>
+
+ExecStart=/usr/bin/tightvncserver :1
+ExecStop=/usr/bin/tightvncserver -kill :1
+
+[Install]
+WantedBy=multi-user.target
